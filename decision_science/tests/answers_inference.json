@@ -1,0 +1,7 @@
+{
+    "MEDIAN_AGE": "\nWhen median age increase of 1 year, crime increase on average by 2252 (nb of crimes)\n",
+    "T_STAT": "\nWe have the null hypothesis : crime is not correlated with median age\nThe t statistic is the ratio between:\n    numerator = the difference of the median_age impact (coef = 2252) to the assume median_age impact of the null hypothesis (coef=0) \n    and\n    denominator = the standard error of the difference (stdr = 1237)\n",
+    "P_VALUE": "\nThe p-value is the proba that what you observed is just due to pure chance.\nHere, we have 0.128, it is neither significant at 95% confidence level (pvalue>0.05) neither at 90% (pvalue>0.10)\n",
+    "INCREASE": "\nThe percentage of married couple have a negative effect on the number of crime commited (coef = -2115).\nWhen increasing by 1 the percentage of married couple, the number of crime decrease on average by 2115.\n",
+    "LIMITATIONS": "\nA very high R2 does not mean our model is perfect. Here p-values shows us well that multiple regressor are stastiticaly non significant. \nTo get the full picture, I have plotted each regressor individually. It seems that some features, only the 2 regressors in significant_regressors shows low bias.\n"
+}
